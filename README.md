@@ -2,7 +2,7 @@
 
 # AIM
 
-To read the given data and perform Outlier Detection and Removal.
+To read the given data and perform Univariate Analysis.
 
 # Explanation
 
