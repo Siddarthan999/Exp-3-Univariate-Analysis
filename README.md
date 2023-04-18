@@ -157,4 +157,7 @@ for col in columns:
 ![image](https://user-images.githubusercontent.com/91734840/230868108-50a54754-2d8b-44cc-92fc-02edf28a2f5b.png)
 ![image](https://user-images.githubusercontent.com/91734840/230868127-b4f95ed3-8a23-438d-8c0e-aa1f88d49258.png)
 
+# RESULT
+
+Thus,to read the given data and perform Outlier Detection and Removal has been performed successfully.
 
