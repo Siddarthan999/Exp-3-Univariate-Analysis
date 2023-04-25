@@ -83,7 +83,6 @@ Visualize the data
     
 # OUTPUT
 ![image](https://user-images.githubusercontent.com/91734840/230855369-b966017d-4782-47a9-b46b-278fa1537442.png)
-
 ![image](https://user-images.githubusercontent.com/91734840/230855499-6716b7c7-5b7d-4d19-8f5c-2d5df37dea60.png)
 ![image](https://user-images.githubusercontent.com/91734840/230855537-a2d976cc-1fc1-4d2f-8bc6-42cc0301bc92.png)
 ![image](https://user-images.githubusercontent.com/91734840/230855581-f14f3eb5-dab8-4266-b709-3e2a33963940.png)
