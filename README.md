@@ -83,6 +83,7 @@ Visualize the data
     
 # OUTPUT
 ![image](https://user-images.githubusercontent.com/91734840/230855369-b966017d-4782-47a9-b46b-278fa1537442.png)
+
 ![image](https://user-images.githubusercontent.com/91734840/230855499-6716b7c7-5b7d-4d19-8f5c-2d5df37dea60.png)
 ![image](https://user-images.githubusercontent.com/91734840/230855537-a2d976cc-1fc1-4d2f-8bc6-42cc0301bc92.png)
 ![image](https://user-images.githubusercontent.com/91734840/230855581-f14f3eb5-dab8-4266-b709-3e2a33963940.png)
@@ -99,17 +100,18 @@ Visualize the data
 
  # CODE FOR "SuperStore.csv"
 
-import pandas as pd
+    import pandas as pd
 
-import matplotlib.pyplot as plt
+    import matplotlib.pyplot as plt
 
-#load the SuperStore dataset
+    #load the SuperStore dataset
 
-SuperStore_df = pd.read_csv("SuperStore.csv")
+    SuperStore_df = pd.read_csv("SuperStore.csv")
 
-#define a function for univariate analysis
+    #define a function for univariate analysis
 
-def univariate_analysis(data, column):
+    def univariate_analysis(data, column):
+    
     #plot a histogram of the data
     
     plt.hist(data[column], bins=10)
@@ -140,13 +142,13 @@ def univariate_analysis(data, column):
     
     print(data[column].describe())
 
-#perform univariate analysis on all specified columns
+    #perform univariate analysis on all specified columns
 
-columns = ["Row ID","Postal Code","Sales"]
+    columns = ["Row ID","Postal Code","Sales"]
 
-for col in columns:
+    for col in columns:
 
-    univariate_analysis(SuperStore_df, col)
+        univariate_analysis(SuperStore_df, col)
 
 # OUTPUT
 ![image](https://user-images.githubusercontent.com/91734840/230867940-19505813-3296-46cb-bbe3-de0a95fc1081.png)
