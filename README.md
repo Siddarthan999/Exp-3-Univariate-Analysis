@@ -31,17 +31,17 @@ Visualize the data
 
 # CODE FOR “diabetes.csv”
 
-import pandas as pd
+    import pandas as pd
 
-import matplotlib.pyplot as plt
+    import matplotlib.pyplot as plt
 
-#load the diabetes dataset
+    #load the diabetes dataset
 
-diabetes_df = pd.read_csv("diabetes.csv")
+    diabetes_df = pd.read_csv("diabetes.csv")
 
-#define a function for univariate analysis
+    #define a function for univariate analysis
 
-def univariate_analysis(data, column):
+    def univariate_analysis(data, column):
 
     #plot a histogram of the data
     
@@ -73,13 +73,13 @@ def univariate_analysis(data, column):
     
     print(data[column].describe())
 
-#perform univariate analysis on all specified columns
+    #perform univariate analysis on all specified columns
 
-columns = ["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI", "DiabetesPedigreeFunction", "Age", "Outcome"]
+    columns = ["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI", "DiabetesPedigreeFunction", "Age", "Outcome"]
 
-for col in columns:
+    for col in columns:
 
-    univariate_analysis(diabetes_df, col)
+        univariate_analysis(diabetes_df, col)
     
 # OUTPUT
 ![image](https://user-images.githubusercontent.com/91734840/230855369-b966017d-4782-47a9-b46b-278fa1537442.png)
