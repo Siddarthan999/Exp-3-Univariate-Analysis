@@ -9,23 +9,23 @@ To read the given data and perform Univariate Analysis.
 Univariate analysis explores each variable in a data set, separately. It looks at the range of values, as well as the central tendency of the values. It describes the pattern of response to the variable. It describes each variable on its own.
 # ALGORITHM
 
-# STEP 1
+### STEP 1
 
 Read the given Data
 
-# STEP 2
+### STEP 2
 
 Get the information about the data
 
-# STEP 3
+### STEP 3
 
 Handle missing values
 
-# STEP 4
+### STEP 4
 
 Perform basic descriptive statistics
 
-# STEP 5
+### STEP 5
 
 Visualize the data
 
